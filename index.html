@@ -70,7 +70,7 @@
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     gap: 6px;
-    width: min(86vw, 340px);
+    width: min(78vw, 300px);
     aspect-ratio: 5 / 6;
   }
   .row {
@@ -148,9 +148,11 @@
   }
   .key:active { transform: scale(0.92); }
   .key.wide {
-    max-width: 70px;
-    font-size: 12px;
-    padding: 0 6px;
+    flex: 1.5;
+    max-width: 84px;
+    font-size: 11px;
+    padding: 0 4px;
+    letter-spacing: 0.5px;
   }
   .key.green  { background: var(--green);  color: white; }
   .key.yellow { background: var(--yellow); color: white; }
