@@ -285,9 +285,22 @@
     padding: 14px 18px;
     font-size: 16px;
   }
+  #version {
+    position: fixed;
+    top: calc(env(safe-area-inset-top) + 6px);
+    right: calc(env(safe-area-inset-right) + 10px);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #b0b0b0;
+    z-index: 50;
+    pointer-events: none;
+  }
 </style>
 </head>
 <body>
+  <div id="version">v1.3</div>
+
   <header>
     <h1>KID WORDLE</h1>
     <div class="sub" id="subtitle">guess the 5-letter word</div>
@@ -802,7 +815,7 @@ function showOverlay(won) {
   overlay.classList.add("show");
 }
 
-// --- Screen / mode management (v1.1) ---
+// --- Screen / mode management ---
 
 function hideAllScreens() {
   ["start-screen","confirm-word","pass-screen"].forEach(id => {
