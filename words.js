@@ -1,0 +1,16 @@
+// Kid-friendly 5-letter words used as the secret answer.
+// Add or remove words here freely. Every word should be 5 letters,
+// uppercase, and spellable by a 6-8 year old.
+const WORDS = [
+  "APPLE","HAPPY","SMILE","TIGER","MOUSE","HORSE","SHEEP","BREAD","JUICE","CANDY",
+  "PIZZA","FRUIT","GRAPE","LEMON","MANGO","PEACH","BERRY","HONEY","SUGAR","WATER",
+  "CLOUD","EARTH","GRASS","PLANT","STONE","RIVER","OCEAN","BEACH","SUNNY","PARTY",
+  "DANCE","MUSIC","SOUND","LAUGH","FUNNY","JOLLY","MERRY","BRAVE","QUICK","LUCKY",
+  "MAGIC","FAIRY","ANGEL","DREAM","SWEET","CHEER","HEART","LIGHT","NIGHT","STARS",
+  "BUNNY","PUPPY","KITTY","ZEBRA","KOALA","PANDA","HIPPO","SNAKE","WHALE","SHARK",
+  "LLAMA","TRAIN","PLANE","TRUCK","ROBOT","BLOCK","CHAIR","TABLE","CLOCK","HOUSE",
+  "PAPER","TEETH","MOUTH","HANDS","JEANS","SHIRT","SOCKS","SHOES","SLIDE","SWING",
+  "FLOOR","MUDDY","GREEN","BROWN","BLACK","WHITE","PIANO","TOWER","QUEEN","KINGS",
+  "CROWN","BEAST","GIANT","SCARF","GLOVE","SPOON","PLATE","BOWLS","FORKS","CAKES",
+  "STORY","BOOKS","SMART","FROGS","BIRDS","DUCKS","CRABS","SHEEP","GOATS","LAMBS"
+];
