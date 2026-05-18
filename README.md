@@ -42,3 +42,4 @@ browser to pick up changes right away.
 - v1.3 — version label in top-right corner
 - v1.4 — refactored into separate files (no user-facing change)
 - v1.5 — added a Reset button so you can bail mid-game without killing the app
+- v1.6 — 2-player mode now validates Player 1's secret word and Player 2's guesses against the dictionary

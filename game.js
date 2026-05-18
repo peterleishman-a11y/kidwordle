@@ -96,8 +96,7 @@ function submitGuess() {
     shakeRow();
     return;
   }
-  // Skip dictionary check in 2-player mode — Player 1 may set a name or made-up word
-  if (mode === "random" && !VALID_GUESSES.has(currentGuess)) {
+  if (!VALID_GUESSES.has(currentGuess)) {
     showToast("Not a word I know");
     shakeRow();
     return;
@@ -124,6 +123,11 @@ function submitGuess() {
 function submitSetWord() {
   if (currentGuess.length < 5) {
     showToast("Need 5 letters");
+    shakeRow();
+    return;
+  }
+  if (!VALID_GUESSES.has(currentGuess)) {
+    showToast("Pick a real word");
     shakeRow();
     return;
   }
